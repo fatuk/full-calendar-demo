@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="app">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>
+		Fullcalendar demo
+	</title>
+	<link rel="shortcut icon" href="img/favicon.png">
+	<link rel="stylesheet" href="css/app.css">
+	<!--[if IE 9]>
+		<link rel="stylesheet" href="css/ie9.css">
+	<![endif]-->
+	<!--[if lt IE 9]>
+		<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+		<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	<![endif]-->
+</head>
+<body>
+	<div
+		ui-view="layout"
+		class="app-layout fadeView"
+		ng-class="{'app-layout_centred-bg': $state.is('index.centered')}">
+	</div>
+
+	<script src="https://apis.google.com/js/client.js"></script>
+	<script src="js/plugins.min.js"></script>
+	<script src="js/app.js"></script>
+</body>
+</html>

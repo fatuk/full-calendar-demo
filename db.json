@@ -1,0 +1,15 @@
+{
+	"events": [{
+		"id": 1,
+		"title": "json-server",
+		"starts_at": "2016-08-10T07:42:00.748Z",
+		"ends_at": "2016-08-10T07:42:00.748Z",
+		"all_day": false
+	},{
+		"id": 2,
+		"title": "My event",
+		"starts_at": "2016-08-11T07:42:00.748Z",
+		"ends_at": "2016-08-11T07:42:00.748Z",
+		"all_day": false
+	}]
+}

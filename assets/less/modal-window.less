@@ -1,0 +1,39 @@
+@modal-window-radius: 5px;
+.modal-window {
+	background: #fff;
+	position: relative;
+	border-radius: @modal-window-radius;
+	&__header {
+		background: @dark-grey;
+		color: #fff;
+		padding: 10px 10px;
+		border-radius: @modal-window-radius @modal-window-radius 0 0;
+		.clearfix();
+	}
+	&__title,
+	&__cancel {
+		font-size: 16px;
+		font-weight: 600;
+		line-height: 30px;
+	}
+	&__cancel {
+		color: #fff;
+		text-decoration: none;
+		float: left;
+	}
+	&__title {
+		float: right;
+		margin: 0;
+	}
+	&__footer {
+		padding: 20px;
+	}
+	&__content {
+		&_padded {
+			padding: 10px;
+		}
+	}
+	&__scroller {
+		height: 300px;
+	}
+}
